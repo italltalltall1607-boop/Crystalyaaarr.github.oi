@@ -1,0 +1,47 @@
+/* Jumbotron styling */
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #ca2d69;
+  color: #ffffff;
+  display: block;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+svg {
+  display: block;
+  width: 100%;
+  margin-bottom: -5px;
+  position: relative;
+  z-index: 1;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+#about {
+  position: relative;
+  z-index: 2;
+  background-color: #ffffff;
+  padding-bottom: 0;
+}
+
+#gallery {
+  position: relative;
+  z-index: 3;
+  background-color: #f7f4ee;
+  padding-bottom: 0;
+}
+
+#gallery .card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+
+#contact {
+  position: relative;
+  z-index: 4;
+  background-color: #ffffff;
+  padding-bottom: 5rem;
+}
